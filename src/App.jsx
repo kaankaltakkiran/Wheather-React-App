@@ -23,7 +23,7 @@ function App() {
     //?https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
     //aa51364c45a7d309ec83da0c331987e3
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=189271b827844bff7388350c44848615&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=aa51364c45a7d309ec83da0c331987e3&units=metric`
     )
       .then((res) => {
         if (res.status === 200) {
