@@ -42,6 +42,10 @@ function App() {
       .finally(() => setLoading(false));
   }, [cityName, error]);
 
+  useEffect(() => {
+    document.title = "React Weather App"
+  })
+
 //Arama işlemini gerçekleştirmek için handleSearch fonksiyonunu kullanıyoruz.
   const handleSearch = (e) => {
     if (e.key === "Enter") {
